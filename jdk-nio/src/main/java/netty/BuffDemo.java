@@ -8,6 +8,11 @@ import io.netty.buffer.*;
 public class BuffDemo {
     /**
      *  无特殊需求前两个即可
+     *  对Direct Buffer（直接内存buffer）的读写比Heap Buffer（堆内存buffer）快，但是它的创建和销毁比普通HeapBuffer慢。
+     *  因此写频繁情况下，使用池化的Direct Buffer 能提高程序性能。
+     *
+     *  由于读的时候使用Direct Buffer需要将缓存数据复制到堆内存，比较麻烦
+     *  （他没有read方法，只能get到javabyte对象中，相当于复制到堆内存）
     **/
     public void showAlloc() {
         ByteBuf buffer = null;
