@@ -44,8 +44,9 @@ public class DiscardServer {
                     // 随着应用程序变得复杂，您可能会向管道添加更多的处理程序，并最终将这个匿名类提进行提取。
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         /**
-                         *  注意此方法是父通道（nioserversochetchannel）接收到连接请求
-                         *  并创建了新的niosocketchannel之后才开始调用的
+                         *  父子通道是对于接受和被接受而言的，接收通道通道为父通道
+                         *  在父通道成功接收一个连接，并创建成功一个子通道后，就
+                         *  会初始化子通道，这里配置的ChannelInitializer实例就会被调用。
                         **/
                         @Override
                         public void initChannel(SocketChannel ch) throws Exception {
