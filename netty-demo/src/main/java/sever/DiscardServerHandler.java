@@ -48,7 +48,7 @@ public class DiscardServerHandler extends ChannelInboundHandlerAdapter {
 //    }
 
     /**
-     *  有响应的sever
+     *  有响应的sever read方法属于入站方法，每有数据写入就会被调用，这不同于周期方法（register active ……）
     **/
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
