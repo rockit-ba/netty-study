@@ -11,7 +11,7 @@ import io.netty.channel.embedded.EmbeddedChannel;
 /**
  * @author lucky
  */
-public class EmbeddedChannelDemo {
+public class EmbeddedChannelInboundDemo {
     static class SimpleInHandlerA extends ChannelInboundHandlerAdapter {
         @Override
         public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
