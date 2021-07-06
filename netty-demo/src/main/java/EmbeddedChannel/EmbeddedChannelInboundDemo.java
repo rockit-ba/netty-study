@@ -24,7 +24,10 @@ public class EmbeddedChannelInboundDemo {
              *
              * 也就是说不调用super.channelRead 整个调用链就不会往下
             **/
-            super.channelRead(ctx, msg);
+//            super.channelRead(ctx, msg);
+            // 还可以使用以下方法达到传递效果
+            // 若要阶段handle链，不调用这两个方法即可
+            ctx.fireChannelRead(msg);
         }
     }
 
