@@ -15,6 +15,12 @@ import java.util.Date;
  *  然而，这个处理程序有时会拒绝抛出IndexOutOfBoundsException。
 **/
 public class TimeClientHandler extends ChannelInboundHandlerAdapter {
+
+    @Override
+    public void channelActive(ChannelHandlerContext ctx) throws Exception {
+        ctx.writeAndFlush("fdsf");
+    }
+
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
         // 在TCP/IP协议中，Netty将从对等端发送的数据读入ByteBuf。

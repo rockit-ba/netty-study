@@ -43,9 +43,14 @@ public class DiscardServer {
                     // 以实现您的网络应用程序。
                     // 随着应用程序变得复杂，您可能会向管道添加更多的处理程序，并最终将这个匿名类提进行提取。
                     .childHandler(new ChannelInitializer<SocketChannel>() {
+                        /**
+                         *  注意此方法是父通道（nioserversochetchannel）接收到连接请求
+                         *  并创建了新的niosocketchannel之后才开始调用的
+                        **/
                         @Override
                         public void initChannel(SocketChannel ch) throws Exception {
-                            ch.pipeline().addLast(new DiscardServerHandler());
+//                            ch.pipeline().addLast(new DiscardServerHandler());
+                            ch.pipeline().addLast(new TimeServerHandler());
                         }
                     })
                     // 您还可以设置特定于Channel实现的参数。
