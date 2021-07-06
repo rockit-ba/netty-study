@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a02c2df-8750-4108-a78b-78b3687283b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/jdk-nio/src/main/java/netty/BuffDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-nio/src/main/java/netty/BuffDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,68 +16,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jdk-nio/src/main/java/netty/BuffDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jdk-nio/src/main/java/netty/BufferTypeTest.java">
+        <entry file="file://$PROJECT_DIR$/jdk-nio/src/main/java/netty/CompositeBufferTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+            <state relative-caret-position="384">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.63.Final/netty-all-4.1.63.Final-sources.jar!/io/netty/buffer/ByteBufAllocator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.63.Final/netty-all-4.1.63.Final-sources.jar!/io/netty/buffer/ByteBufUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="88" column="47" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.63.Final/netty-all-4.1.63.Final-sources.jar!/io/netty/buffer/PooledByteBufAllocator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="178" column="47" selection-start-line="178" selection-start-column="47" selection-end-line="178" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.63.Final/netty-all-4.1.63.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="247" column="57" selection-start-line="247" selection-start-column="41" selection-end-line="247" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/sever/DiscardServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -108,8 +54,9 @@
         <option value="$PROJECT_DIR$/netty-demo/src/main/java/EmbeddedChannel/EmbeddedChannelInboundDemo.java" />
         <option value="$PROJECT_DIR$/netty-demo/src/main/java/EmbeddedChannel/EmbeddedChannelOutboundDemo.java" />
         <option value="$PROJECT_DIR$/netty-demo/src/main/java/sever/DiscardServerHandler.java" />
-        <option value="$PROJECT_DIR$/jdk-nio/src/main/java/netty/BuffDemo.java" />
         <option value="$PROJECT_DIR$/jdk-nio/src/main/java/netty/BufferTypeTest.java" />
+        <option value="$PROJECT_DIR$/jdk-nio/src/main/java/netty/BuffDemo.java" />
+        <option value="$PROJECT_DIR$/jdk-nio/src/main/java/netty/CompositeBufferTest.java" />
       </list>
     </option>
   </component>
@@ -245,7 +192,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625555523945" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625556155177" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/netty-demo/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -355,18 +302,18 @@
       <option name="presentableId" value="Default" />
       <updated>1625470241101</updated>
       <workItem from="1625470243992" duration="3235000" />
-      <workItem from="1625476321175" duration="15621000" />
+      <workItem from="1625476321175" duration="16323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18856000" />
+    <option name="totallyTimeSpent" value="19558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49930266" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49930266" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" sideWeight="0.5006974" side_tool="true" weight="0.25266525" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -381,7 +328,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Analysis" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.26140156" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.19688542" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32925472" />
@@ -531,17 +478,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.63.Final/netty-all-4.1.63.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
+    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/sever/DiscardServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="247" column="57" selection-start-line="247" selection-start-column="41" selection-end-line="247" selection-end-column="57" />
+        <state relative-caret-position="320">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.63.Final/netty-all-4.1.63.Final-sources.jar!/io/netty/buffer/ByteBufUtil.java">
+    <entry file="file://$PROJECT_DIR$/jdk-nio/src/main/java/netty/BuffDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="88" column="47" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
+        <state relative-caret-position="163">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk-nio/src/main/java/netty/BufferTypeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -552,10 +509,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/sever/DiscardServerHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.63.Final/netty-all-4.1.63.Final-sources.jar!/io/netty/buffer/ByteBufUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <caret line="88" column="47" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -566,17 +523,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jdk-nio/src/main/java/netty/BuffDemo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.63.Final/netty-all-4.1.63.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="211">
+          <caret line="247" column="57" selection-start-line="247" selection-start-column="41" selection-end-line="247" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jdk-nio/src/main/java/netty/BufferTypeTest.java">
+    <entry file="file://$PROJECT_DIR$/jdk-nio/src/main/java/netty/CompositeBufferTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        <state relative-caret-position="384">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

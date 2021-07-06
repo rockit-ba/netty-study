@@ -20,15 +20,19 @@ public class DiscardServerHandler extends ChannelInboundHandlerAdapter {
     **/
 //    @Override
 //    public void channelRead(ChannelHandlerContext ctx, Object msg) { // (2)
-//        /**
-//         *  ByteBuf是一个引用计数对象，实现了ReferenceCounted，它必须通过release()方法显式释放。
-//         *  通常是这样实现的：
-//         *   try {
-//         *         // Do something with msg
-//         *     } finally {
-//         *         ReferenceCountUtil.release(msg);
-//         *     }
-//        **/
+        /**
+         *  ByteBuf是一个引用计数对象，实现了ReferenceCounted，它必须通过release()方法显式释放。
+         *  通常是这样实现的：
+         *   try {
+         *         // Do something with msg
+         *     } finally {
+         *         ReferenceCountUtil.release(msg);
+         *     }
+         *     另外
+         *     Netty默认会在ChannelPipline通道流水线的最后添加一个TailHandler末尾处理
+         *      器，它实现了默认的处理方法，在这些方法中会帮助完成ByteBuf内存释放的工作。
+         *      你只需要确保msg一直往下传(调用父类或者调用ctx fire)
+        **/
 //        // 丢弃客户端的消息
 //        ByteBuf in = (ByteBuf) msg;
 //        try {
