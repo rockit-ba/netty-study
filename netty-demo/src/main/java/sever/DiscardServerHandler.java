@@ -21,7 +21,7 @@ public class DiscardServerHandler extends ChannelInboundHandlerAdapter {
 //    @Override
 //    public void channelRead(ChannelHandlerContext ctx, Object msg) { // (2)
 //        /**
-//         *  ByteBuf是一个引用计数对象，它必须通过release()方法显式释放。
+//         *  ByteBuf是一个引用计数对象，实现了ReferenceCounted，它必须通过release()方法显式释放。
 //         *  通常是这样实现的：
 //         *   try {
 //         *         // Do something with msg

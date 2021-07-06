@@ -12,16 +12,15 @@ import io.netty.channel.embedded.EmbeddedChannel;
  * @author lucky
  */
 public class EmbeddedChannelOutboundDemo {
-    static class SimpleOutHandlerA extends ChannelOutboundHandlerAdapter {
+    public class SimpleOutHandlerA extends ChannelOutboundHandlerAdapter {
         @Override
         public void write(ChannelHandlerContext ctx, Object msg, ChannelPromise promise) throws Exception {
             System.out.println("出站处理器 A: 被回调");
-            // 同样需要调用父类的方法
             super.write(ctx, msg, promise);
         }
     }
 
-    static class SimpleOutHandlerB extends ChannelOutboundHandlerAdapter {
+    public class SimpleOutHandlerB extends ChannelOutboundHandlerAdapter {
         @Override
         public void write(ChannelHandlerContext ctx, Object msg, ChannelPromise promise) throws Exception {
             System.out.println("出站处理器 B: 被回调");
@@ -29,15 +28,19 @@ public class EmbeddedChannelOutboundDemo {
         }
     }
 
-    static class SimpleOutHandlerC extends ChannelOutboundHandlerAdapter {
+    public class SimpleOutHandlerC extends ChannelOutboundHandlerAdapter {
         @Override
         public void write(ChannelHandlerContext ctx, Object msg, ChannelPromise promise) throws Exception {
             System.out.println("出站处理器 C: 被回调");
             super.write(ctx, msg, promise);
         }
     }
-
-    public static void main(String[] args) {
+    public void test() {
+        /**
+         *  ChannelInitializer 实际上继承了ChannelInboundHandlerAdapter
+         *  遗传你他也是一个handle处理器，但是一条通道只需要初始化一次，因此，
+         *  它会在回调中将自己充处理器链中移除
+        **/
         ChannelInitializer i = new ChannelInitializer<EmbeddedChannel>() {
             @Override
             protected void initChannel(EmbeddedChannel ch) {
@@ -50,7 +53,7 @@ public class EmbeddedChannelOutboundDemo {
                  *  出站处理器 C: 被回调
                  *  出站处理器 B: 被回调
                  *  出站处理器 A: 被回调
-                **/
+                 **/
             }
         };
         EmbeddedChannel channel = new EmbeddedChannel(i);
@@ -63,5 +66,9 @@ public class EmbeddedChannelOutboundDemo {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    public static void main(String[] args) {
+        new EmbeddedChannelOutboundDemo().test();
     }
 }

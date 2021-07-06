@@ -27,6 +27,10 @@ public class EmbeddedChannelInboundDemo {
 //            super.channelRead(ctx, msg);
             // 还可以使用以下方法达到传递效果
             // 若要阶段handle链，不调用这两个方法即可
+            /**
+             *  如果要截断其他
+             * 的入站处理的流水线操作（使用Xxx指代），也可以同样处理
+            **/
             ctx.fireChannelRead(msg);
         }
     }
