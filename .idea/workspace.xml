@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a02c2df-8750-4108-a78b-78b3687283b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9a02c2df-8750-4108-a78b-78b3687283b7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/netty-demo/target/" />
@@ -17,12 +15,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jdk-nio/src/main/java/netty/CompositeBufferTest.java">
+        <entry file="file://$PROJECT_DIR$/jdk-nio/src/main/java/netty/SliceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="480">
+              <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,10 +53,11 @@
         <option value="$PROJECT_DIR$/netty-demo/src/main/java/EmbeddedChannel/EmbeddedChannelDemo.java" />
         <option value="$PROJECT_DIR$/netty-demo/src/main/java/EmbeddedChannel/EmbeddedChannelInboundDemo.java" />
         <option value="$PROJECT_DIR$/netty-demo/src/main/java/EmbeddedChannel/EmbeddedChannelOutboundDemo.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/sever/DiscardServerHandler.java" />
         <option value="$PROJECT_DIR$/jdk-nio/src/main/java/netty/BufferTypeTest.java" />
         <option value="$PROJECT_DIR$/jdk-nio/src/main/java/netty/BuffDemo.java" />
         <option value="$PROJECT_DIR$/jdk-nio/src/main/java/netty/CompositeBufferTest.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/sever/DiscardServerHandler.java" />
+        <option value="$PROJECT_DIR$/jdk-nio/src/main/java/netty/SliceTest.java" />
       </list>
     </option>
   </component>
@@ -192,7 +193,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625556155177" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625558285268" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/netty-demo/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -215,26 +216,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BuffDemo">
+  <component name="RunManager" selected="Application.SliceTest">
     <configuration name="BuffDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="netty.BuffDemo" />
       <module name="jdknio" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="netty.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nio.BufferDemo" />
-      <module name="jdknio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,13 +269,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SliceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.SliceTest" />
+      <module name="jdknio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SliceTest" />
         <item itemvalue="Application.BuffDemo" />
         <item itemvalue="Application.EmbeddedChannelOutboundDemo" />
         <item itemvalue="Application.EmbeddedChannelInboundDemo" />
         <item itemvalue="Application.EmbeddedChannelDemo" />
-        <item itemvalue="Application.BufferDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -302,12 +303,12 @@
       <option name="presentableId" value="Default" />
       <updated>1625470241101</updated>
       <workItem from="1625470243992" duration="3235000" />
-      <workItem from="1625476321175" duration="16323000" />
+      <workItem from="1625476321175" duration="17717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19558000" />
+    <option name="totallyTimeSpent" value="20952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -322,13 +323,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27252504" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27252504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Analysis" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.19688542" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23248054" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32925472" />
@@ -464,24 +465,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/sever/DiscardServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/sever/TimeServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/sever/DiscardServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -536,6 +523,32 @@
           <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/sever/DiscardServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/sever/DiscardServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk-nio/src/main/java/netty/SliceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
           </folding>
         </state>
       </provider>
