@@ -50,8 +50,10 @@ public class NettyOpenBoxDecoder {
 
                 ByteBuf buf = Unpooled.buffer();
                 for (int k = 0; k < random; k++) {
+                    // 按照随机数 buf中写入随机数个content
                     buf.writeBytes(content.getBytes(StandardCharsets.UTF_8));
                 }
+                // 最后再整个随机数个的content后添加分行符
                 buf.writeBytes(spliter.getBytes(StandardCharsets.UTF_8));
                 channel.writeInbound(buf);
             }
