@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a02c2df-8750-4108-a78b-78b3687283b7" name="Default Changelist" comment="" />
+    <list default="true" id="9a02c2df-8750-4108-a78b-78b3687283b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk-nio/src/main/java/NettyCoder/NettyOpenBoxDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-nio/src/main/java/NettyCoder/NettyOpenBoxDecoder.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/netty-demo/target/" />
@@ -17,12 +20,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jdk-nio/src/main/java/NettyCoder/NettyOpenBoxDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+            <state relative-caret-position="718">
+              <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#703#1080#0" expanded="true" />
-                <element signature="e#1079#1080#0" expanded="true" />
+                <element signature="method#testLineBasedFrameDecoder#0;class#NettyOpenBoxDecoder#0" />
               </folding>
             </state>
           </provider>
@@ -152,6 +154,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="NettyCoder" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="netty-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-study" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk-nio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -163,7 +174,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625621654724" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625622275550" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/netty-demo/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -190,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NettyOpenBoxDecoder.testLineBasedFrameDecoder">
+  <component name="RunManager" selected="JUnit.NettyOpenBoxDecoder.testDelimiterBasedFrameDecoder">
     <configuration name="BuffDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="netty.BuffDemo" />
       <module name="jdknio" />
@@ -217,19 +228,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmbeddedChannelOutboundDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EmbeddedChannel.EmbeddedChannelOutboundDemo" />
-      <module name="nettydemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EmbeddedChannel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SliceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="netty.SliceTest" />
       <module name="jdknio" />
@@ -239,6 +237,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyOpenBoxDecoder.testDelimiterBasedFrameDecoder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdknio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NettyCoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NettyCoder" />
+      <option name="MAIN_CLASS_NAME" value="NettyCoder.NettyOpenBoxDecoder" />
+      <option name="METHOD_NAME" value="testDelimiterBasedFrameDecoder" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -261,11 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NettyOpenBoxDecoder.testDelimiterBasedFrameDecoder" />
         <item itemvalue="JUnit.NettyOpenBoxDecoder.testLineBasedFrameDecoder" />
         <item itemvalue="Application.Byte2IntegerDecoderTester" />
         <item itemvalue="Application.SliceTest" />
         <item itemvalue="Application.BuffDemo" />
-        <item itemvalue="Application.EmbeddedChannelOutboundDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +294,7 @@
       <option name="presentableId" value="Default" />
       <updated>1625470241101</updated>
       <workItem from="1625470243992" duration="3235000" />
-      <workItem from="1625476321175" duration="23867000" />
+      <workItem from="1625476321175" duration="24129000" />
     </task>
     <servers />
   </component>
@@ -311,7 +325,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27102000" />
+    <option name="totallyTimeSpent" value="27364000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,7 +340,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49930266" visible="true" weight="0.1988273" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49930266" visible="true" weight="0.1988273" />
       <window_info id="Structure" order="1" sideWeight="0.5006974" side_tool="true" weight="0.25266525" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -341,7 +355,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32925472" />
       <window_info anchor="bottom" id="Analysis" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23248054" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23248054" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32925472" />
@@ -623,12 +637,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jdk-nio/src/main/java/NettyCoder/NettyOpenBoxDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+        <state relative-caret-position="718">
+          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#703#1080#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="method#testLineBasedFrameDecoder#0;class#NettyOpenBoxDecoder#0" />
           </folding>
         </state>
       </provider>
