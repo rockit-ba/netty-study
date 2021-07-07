@@ -20,6 +20,10 @@
             <artifactId>netty-all</artifactId>
             <version>4.1.63.Final</version>
         </dependency>
+        <dependency>
+            <groupId></groupId>
+            <artifactId></artifactId>
+        </dependency>
     </dependencies>
 
     <build>
