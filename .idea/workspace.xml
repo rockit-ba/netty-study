@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a02c2df-8750-4108-a78b-78b3687283b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jdk-nio/src/main/java/NettyCoder/NettyOpenBoxDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-nio/src/main/java/NettyCoder/NettyOpenBoxDecoder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,15 +20,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jdk-nio/src/main/java/NettyCoder/NettyOpenBoxDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-348">
-              <caret line="143" column="33" lean-forward="true" selection-start-line="143" selection-start-column="33" selection-end-line="143" selection-end-column="33" />
+            <state relative-caret-position="-195">
+              <caret line="216" column="30" lean-forward="true" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
               <folding>
                 <element signature="docComment;method#testLineBasedFrameDecoder#0;class#NettyOpenBoxDecoder#0" />
                 <element signature="method#testLineBasedFrameDecoder#0;class#NettyOpenBoxDecoder#0" />
                 <element signature="docComment;method#testDelimiterBasedFrameDecoder#0;class#NettyOpenBoxDecoder#0" />
                 <element signature="method#testDelimiterBasedFrameDecoder#0;class#NettyOpenBoxDecoder#0" />
-                <element signature="e#2863#3353#0" expanded="true" />
-                <element signature="e#3352#3353#0" expanded="true" />
+                <element signature="e#2893#3383#0" expanded="true" />
+                <element signature="e#3382#3383#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,7 +178,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625623989152" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625625041548" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/netty-demo/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -204,26 +205,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NettyOpenBoxDecoder.testLengthFieldBasedFrameDecoder1">
+  <component name="RunManager" selected="JUnit.NettyOpenBoxDecoder.testLengthFieldBasedFrameDecoder2">
     <configuration name="Byte2IntegerDecoderTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NettyCoder.Byte2IntegerDecoderTester" />
       <module name="jdknio" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="NettyCoder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SliceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.SliceTest" />
-      <module name="jdknio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,6 +251,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NettyOpenBoxDecoder.testLengthFieldBasedFrameDecoder2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdknio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NettyCoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NettyCoder" />
+      <option name="MAIN_CLASS_NAME" value="NettyCoder.NettyOpenBoxDecoder" />
+      <option name="METHOD_NAME" value="testLengthFieldBasedFrameDecoder2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NettyOpenBoxDecoder.testLineBasedFrameDecoder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdknio" />
       <extension name="coverage">
@@ -281,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NettyOpenBoxDecoder.testLengthFieldBasedFrameDecoder2" />
         <item itemvalue="JUnit.NettyOpenBoxDecoder.testLengthFieldBasedFrameDecoder1" />
         <item itemvalue="JUnit.NettyOpenBoxDecoder.testDelimiterBasedFrameDecoder" />
         <item itemvalue="JUnit.NettyOpenBoxDecoder.testLineBasedFrameDecoder" />
         <item itemvalue="Application.Byte2IntegerDecoderTester" />
-        <item itemvalue="Application.SliceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -300,20 +304,11 @@
       <option name="presentableId" value="Default" />
       <updated>1625470241101</updated>
       <workItem from="1625470243992" duration="3235000" />
-      <workItem from="1625476321175" duration="26009000" />
+      <workItem from="1625476321175" duration="26861000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NettyOpenBoxDecoder_testLineBasedFrameDecoder - 2021.07.07 at 09h 22m 01s.xml">
-      <configuration name="NettyOpenBoxDecoder.testLineBasedFrameDecoder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NettyOpenBoxDecoder_testLineBasedFrameDecoder - 2021.07.07 at 09h 22m 17s.xml">
-      <configuration name="NettyOpenBoxDecoder.testLineBasedFrameDecoder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NettyOpenBoxDecoder_testLineBasedFrameDecoder - 2021.07.07 at 09h 22m 55s.xml">
-      <configuration name="NettyOpenBoxDecoder.testLineBasedFrameDecoder" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NettyOpenBoxDecoder_testLineBasedFrameDecoder - 2021.07.07 at 09h 24m 27s.xml">
       <configuration name="NettyOpenBoxDecoder.testLineBasedFrameDecoder" configurationId="JUnit" />
     </history-entry>
@@ -335,9 +330,18 @@
     <history-entry file="NettyOpenBoxDecoder_testLengthFieldBasedFrameDecoder1 - 2021.07.07 at 10h 05m 02s.xml">
       <configuration name="NettyOpenBoxDecoder.testLengthFieldBasedFrameDecoder1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NettyOpenBoxDecoder_testLengthFieldBasedFrameDecoder2 - 2021.07.07 at 10h 23m 59s.xml">
+      <configuration name="NettyOpenBoxDecoder.testLengthFieldBasedFrameDecoder2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NettyOpenBoxDecoder_testLengthFieldBasedFrameDecoder2 - 2021.07.07 at 10h 24m 18s.xml">
+      <configuration name="NettyOpenBoxDecoder.testLengthFieldBasedFrameDecoder2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NettyOpenBoxDecoder_testLengthFieldBasedFrameDecoder2 - 2021.07.07 at 10h 24m 22s.xml">
+      <configuration name="NettyOpenBoxDecoder.testLengthFieldBasedFrameDecoder2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29244000" />
+    <option name="totallyTimeSpent" value="30096000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -656,15 +660,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jdk-nio/src/main/java/NettyCoder/NettyOpenBoxDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-348">
-          <caret line="143" column="33" lean-forward="true" selection-start-line="143" selection-start-column="33" selection-end-line="143" selection-end-column="33" />
+        <state relative-caret-position="-195">
+          <caret line="216" column="30" lean-forward="true" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
           <folding>
             <element signature="docComment;method#testLineBasedFrameDecoder#0;class#NettyOpenBoxDecoder#0" />
             <element signature="method#testLineBasedFrameDecoder#0;class#NettyOpenBoxDecoder#0" />
             <element signature="docComment;method#testDelimiterBasedFrameDecoder#0;class#NettyOpenBoxDecoder#0" />
             <element signature="method#testDelimiterBasedFrameDecoder#0;class#NettyOpenBoxDecoder#0" />
-            <element signature="e#2863#3353#0" expanded="true" />
-            <element signature="e#3352#3353#0" expanded="true" />
+            <element signature="e#2893#3383#0" expanded="true" />
+            <element signature="e#3382#3383#0" expanded="true" />
           </folding>
         </state>
       </provider>
