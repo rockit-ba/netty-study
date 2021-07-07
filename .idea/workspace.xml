@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a02c2df-8750-4108-a78b-78b3687283b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk-nio/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-nio/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9a02c2df-8750-4108-a78b-78b3687283b7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/netty-demo/target/" />
@@ -21,9 +17,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jdk-nio/src/main/java/NettyCoder/NettyOpenBoxDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-564">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="256">
+              <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#703#1080#0" expanded="true" />
                 <element signature="e#1079#1080#0" expanded="true" />
               </folding>
@@ -166,7 +163,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625621507460" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625621654724" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/netty-demo/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -283,7 +280,7 @@
       <option name="presentableId" value="Default" />
       <updated>1625470241101</updated>
       <workItem from="1625470243992" duration="3235000" />
-      <workItem from="1625476321175" duration="23470000" />
+      <workItem from="1625476321175" duration="23867000" />
     </task>
     <servers />
   </component>
@@ -314,10 +311,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26705000" />
+    <option name="totallyTimeSpent" value="27102000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49930266" visible="true" weight="0.1988273" />
       <window_info id="Structure" order="1" sideWeight="0.5006974" side_tool="true" weight="0.25266525" />
@@ -616,9 +623,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jdk-nio/src/main/java/NettyCoder/NettyOpenBoxDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-564">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="256">
+          <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#703#1080#0" expanded="true" />
             <element signature="e#1079#1080#0" expanded="true" />
           </folding>

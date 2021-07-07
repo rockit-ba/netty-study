@@ -12,7 +12,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Random;
 
 public class NettyOpenBoxDecoder {
-    static String spliter = "\r\n";
+    static String linebase = "\r\n";
     static String content = "从零开始异世界生活";
 
     /**
@@ -54,7 +54,7 @@ public class NettyOpenBoxDecoder {
                     buf.writeBytes(content.getBytes(StandardCharsets.UTF_8));
                 }
                 // 最后再整个随机数个的content后添加分行符
-                buf.writeBytes(spliter.getBytes(StandardCharsets.UTF_8));
+                buf.writeBytes(linebase.getBytes(StandardCharsets.UTF_8));
                 channel.writeInbound(buf);
             }
             Thread.sleep(Integer.MAX_VALUE);
