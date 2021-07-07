@@ -116,6 +116,7 @@ public class NettyOpenBoxDecoder {
 
 
     /**
+     * 常用但复杂
      * LengthFieldBasedFrameDecoder使用实例 1
      * 输出：
      *
@@ -127,12 +128,14 @@ public class NettyOpenBoxDecoder {
     public void testLengthFieldBasedFrameDecoder1() {
         try {
             final LengthFieldBasedFrameDecoder spliter =
+                    // 这里面出现的所有饿长度均指字节长度
             new LengthFieldBasedFrameDecoder(
                     // 发送的数据包的最大长度。示例程序中该值为1024，表示一个数据包最多可发送1024个字节。
                     1024,
-                    // 长度字段偏移量。指的是长度字段位于整个数据包内部的字节数组中的下标值。
+                    // 长度字段偏移量（表示一个索引）。指的是长度字段位于整个数据包内部的字节数组中的下标值。
+                    // 偏移量为0，也就是长度字段放在了最前面，处于数据包的起始位置。
                     0,
-                    // 长度字段所占的字节数。如果长度字段是一个int整数，则为4，如果长度字段是一个short整数，则为2。
+                    // 描述内容长度的 长度字段 所占的字节数（表示个数）。如果长度字段是一个int整数，则为4，如果长度字段是一个short整数，则为2。
                     4,
                     /**
                      *
@@ -140,6 +143,10 @@ public class NettyOpenBoxDecoder {
                      * // 在传输协议比较复杂的情况下，例如包含了长度字段、协议版本号、魔数等等。
                      * // 那么，解码时，就需要进行长度矫正。长度矫正值的计算公式为：
                      * // 内容字段偏移量–长度字段偏移量–长度字段的字节数。
+                     * 内容字段偏移量（表示一个索引）：首先 长度字段 偏移量为0，长度4，所以它占据的索引：0 1 2 3 下一个索引就是内容了，因此，内容偏移量为 4
+                     * 实例中的值：4-0-4 = 0（事实上我们不会这样算，我们会直接写入中间添加内容的字节长度即可实现矫正）
+                     * 如果情况复杂 长度字段 和内容之间还添加了 协议版本号、魔数 ，事实上我们的校正值 就是中间的东西所占的字节长度
+                     * 矫正的意思就是正确地发现内容（content）
                     **/
                     0,
                     /**
@@ -162,8 +169,9 @@ public class NettyOpenBoxDecoder {
                 ByteBuf buf = Unpooled.buffer();
                 String s = j + "次发送->"+content;
                 byte[] bytes = s.getBytes(StandardCharsets.UTF_8);
-                // 写入长度字段 int 类型 占4个字节
-                buf.writeInt(bytes.length );
+                System.out.println(bytes.length);
+                // 写入长度字段(示例程序最大为41 因此写入int即可)
+                buf.writeInt(bytes.length);
                 // 写入content
                 buf.writeBytes(bytes);
                 // 写到入站
